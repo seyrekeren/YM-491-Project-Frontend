@@ -1,9 +1,9 @@
-import { Link, useLocation } from "react-router-dom";
-import "./Header.css";
+import { Link } from "react-router-dom";
+import "./header.css";
 
 const Header = () => {
 
-  const { pathname } = useLocation();
+  //const { pathname } = useLocation();
   const user = localStorage.getItem("user");
 
   return (
